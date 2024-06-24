@@ -174,17 +174,61 @@ console.log(aprobados); */
 /* 14. */
 /* --------------------------------------------------------------- */
 
+/* const tareas = [
+  {description: "Comer", completada: true},
+  {description: "Saltar", completada: false},
+  {description: "Correr", completada: true},
+  {description: "Caminar", completada: false},
+  {description: "Jugar", completada: true}
+];
 
+const completadas = tareas.filter(tarea => tarea.completada == true);
 
+console.log(completadas);
+ */
 
+/* 15. */
+/* --------------------------------------------------------------- */
 
+/* const nombres = ['Jona', 'Carla', 'Jose', 'Roberto', 'Jorge'];
 
+nombres.forEach(nombre => console.log(nombre));
+ */
 
+/* 16. */
+/* --------------------------------------------------------------- */
 
+/* let sumaEdades = 0;
 
+const edades = [18, 20, 24, 30, 39, 43, 50];
 
+edades.forEach(edad => { sumaEdades += edad });
 
+console.log(sumaEdades); */
 
+/* 17. */
+/* --------------------------------------------------------------- */
+
+/* const productos = [
+  {nombre: "Notebook", precio: 950},
+  {nombre: "Mouse", precio: 80},
+  {nombre: "Teclado", precio: 120},
+  {nombre: "Monitor", precio: 700},
+  {nombre: "Parlantes", precio: 50}
+];
+
+productos.forEach(producto => producto.precio = producto.precio * 0.90);
+
+console.log(productos); */
+
+/* 18. */
+/* --------------------------------------------------------------- */
+
+/* const invitados = ['Jonathan', 'Carla', 'Jose', 'Roberto', 'Jorge'];
+
+invitados.forEach(invitado => console.log(`La invitacion fue enviada a ${invitado}`)); */
+
+/* FIN */
 
 
 
